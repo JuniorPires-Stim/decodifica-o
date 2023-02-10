@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="passinhoRomano.css">
+</head>
+<body id="container">
+    <form>
+        <h1 id="titulo">Cifra de César</h1>
+        <div id="campo">
+            <!-- <label for="mensagem">Mensagem a ser codificada</label>
+            <input id="mensagem" type="text" > -->
+        </div>
+                <label for="escolher">Escolha o tipo de codificação</label>
+        <div>
+            <select name="escolher" id="escolher">
+                <option value="0">Escolha uma opção</option>
+                <option value="1">Base 64</option>
+                <option value="2">Cifra de César</option>
+            </select>
+        </div id = "selecione">
+                <label for="cod">Codificar</label>
+                <input type="radio" id="cod" value="0" name="texto">
+                <label  for="dec">Decodificar</label>
+                <input type="radio" id="deco"  value="1" name="texto">
+         </div>
+        <div id="mensagem"></div>
+        <div>
+            <button id="botao">Codificar</button>
+        </div>
+        <div id="resultado"></div>
+
+    </form>
+    <script src="./passinhoRomano.js"></script>
+</body>
+</html>
